@@ -1,0 +1,226 @@
+/*****Base Styles*****/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #087e8b;
+}
+
+#portfolio {
+  height: 1400px;
+}
+
+#about-me {
+  height: 650px;
+  overflow: hidden;
+}
+
+#connect {
+  height: 450px;
+  overflow: hidden;
+}
+
+/*****GRID*****/
+.full-width {
+  width:1200px;
+  margin: 0 auto;
+
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+  padding-bottom: 20px;
+
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  padding-bottom: 20px;
+}
+
+/*****HEADER*****/
+header {
+  height: 800px;
+  background-image: url("../img/hero-image.png");
+  background-size: cover;
+  border-width: 1px;
+  border-color: #b7b7b7;
+  overflow: hidden;
+}
+
+header nav {
+  color: #bdbf09;
+  font-size: 18px;
+  text-align: right;
+  padding: 15px 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display:inline-block;
+  font-family: 'Roboto Slab', serif;
+  margin-right: 1px;
+}
+
+header h2 {
+  color: #bdbf09;
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  font-style: bold;
+  line-height: 80px;
+  padding: 285px 0 25px 75px;
+  text-align: center;
+  width: 1000px;
+}
+
+header p {
+  font-size: 48px;
+  text-align: center;
+}
+
+/*****PORTFOLIO-Rogue*****/
+#portfolio .full-width {
+  overflow: auto;
+  padding: 40px 0;
+}
+
+#portfolio h3 {
+  color: #095156;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-style: bold;
+  line-height: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+#portfolio img {
+  border: 1px solid #b7b7b7;
+  height: 300px;
+  width: 500px;
+  margin: 100 5 0 0px;
+}
+
+#portfolio p {
+  margin: 0 5px 5px;
+  padding-bottom: 50px;
+  width: 500px;
+}
+
+#portfolio span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/*****PORTFOLIO-Jubilee*****/
+#portfolio img#jubilee {
+  border: 1px solid #b7b7b7;
+}
+
+/*****PORTFOLIO-Burbank*****/
+#portfolio img#burbank-img {
+  border: 1px solid #b7b7b7;
+  height: 335px;
+  width: 500px;
+  margin: 150 5 0 0px;
+
+}
+
+/*****ABOUT ME*****/
+#about-me {
+  background-color: #087e8b;
+}
+
+#about-me h3 {
+  color: #bdbf09;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-style: bold;
+  line-height: 25px;
+  padding: 50px;
+  text-align: center;
+}
+
+#about-me img#personal-img {
+  border: 1px solid #b7b7b7;
+  height: 400px;
+  margin-left: 100px;
+  width: 275px;
+
+}
+
+#about-me p {
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10 0 100 0px;
+  text-align: left;
+}
+
+#about-me span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+
+/*****Let's Connect*****/
+#connect {
+  background-color: #095156;
+}
+
+#connect h2#lets-connect-header{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-style: bold;
+  line-height: 25px;
+  padding: 50px;
+  text-align: center;
+}
+
+#connect h2 {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+#connect p {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#connect span {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#connect li {
+  list-style: none;
+  margin: 10px 20px 10px 10px;
+}
+#connect ul {
+  text-align: center;
+}
+#connect ul li {
+  display: inline-block;
+}
+
+#connect .full-width p#copy {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 25px;
+}
